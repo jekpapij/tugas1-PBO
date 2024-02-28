@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SistemLoginLibrary {
+public class Main {
 
     private static final String ADMIN_USERNAME = "admin";
     private static final String ADMIN_PASSWORD = "admin123";
@@ -47,7 +47,6 @@ public class SistemLoginLibrary {
             return;
         }
 
-        // Validasi database untuk NIM dan tampilkan pesan sesuai hasil
 
         System.out.println("Login berhasil!");
     }
